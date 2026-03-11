@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ficha de Inscrição</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <table align="center" width="900" border="0" cellpadding="5">
+            <tr>
+                <td colspan="4" align="center">
+                    <h1>Ficha de Inscrição</h1>
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="150">Nome do candidato:</td>
+                <td colspan="3">
+                    <input type="text" name="nome" size="100">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Endereço:</td>
+                <td colspan="3">
+                    <input type="text" name="endereco" size="100">
+                </td>
+            </tr>
+
+            <tr>
+                <td>CEP:</td>
+                <td width="300">
+                    <input type="text" name="cep" size="30">
+                </td>
+                <td colspan="2">
+<select name="uf">
+                        <option> UF </option>
+                        <option value="DF">DF</option>
+                        <option value="SP">SP</option>
+                        <option value="MG">MG</option>
+                        <option value="TO">TO</option>
+                        <option value="AM">AM</option>
+                    </select>
+                    <select name="cidade">
+                        <option> Selecione </option>
+                        <option value="Brasilia">Brasília</option>
+                        <option value="Sao Paulo">São Paulo</option>
+                        <option value="Uberlândia">Uberlândia</option>
+                        <option value="Tocantins">Tocantins</option>
+                        <option value="Amazonas">Amazonas</option>
+                    </select>
+
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>Telefone:</td>
+                <td colspan="3">
+                    <input type="text" name="ddd" size="10">
+                    <input type="text" name="tel_parte1" size="25">
+                    <input type="text" name="tel_parte2" size="25">
+                </td>
+            </tr>
+
+            <tr>
+                <td>RG:</td>
+                <td>
+                    <input type="text" name="rg" size="30">
+                </td>
+                <td colspan="2">
+                    CPF: <input type="text" name="cpf" size="25">
+                    Sexo: 
+                    <input type="radio" name="sexo" value="Mas"> Mas.
+                    <input type="radio" name="sexo" value="Fem"> Fem.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Escolaridade:</td>
+                <td>
+                    <select name="escolaridade">
+                        <option> Selecione </option>
+                        <option value="Médio">Ensino Médio Completo</option>
+                        <option value="Tecnico">Ensino Técnico</option>
+                        <option value="Superior">Ensino Superior Completo</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    Email: <input type="text" name="email" size="52">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Curso:</td>
+                <td>
+                    <select name="curso">
+                        <option> Selecione </option>
+                        <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+                        <option value="CC">Ciência da Computação</option>
+                        <option value="SI">Sistemas de Informação</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    Senha de acompanhamento: <input type="password" name="senha" size="25">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4"><hr></td>
+            </tr>
+
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="CADASTRAR">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
